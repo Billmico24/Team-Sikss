@@ -5,15 +5,18 @@
 
 :root {
     --black: #141414;
-    --lightblack: rgba(20, 20, 20, 0.50);
+    --light-black: #202020;
     --white: #fff;
     --dark-green: #1E2827;
     --figcaption: rgba(255, 255, 255, 0.50);
+    --dark-green:  #1E2827;
+    --navy-blue: #464766;
+
 
 }
 
 body {
-    font-family: 'epilouge', sans-serif;
+    font-family: 'epilogue', sans-serif;
 }
 
 .list {
