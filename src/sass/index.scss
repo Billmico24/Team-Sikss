@@ -11,8 +11,6 @@
     --figcaption: rgba(255, 255, 255, 0.50);
     --dark-green:  #1E2827;
     --navy-blue: #464766;
-
-
 }
 
 body {
@@ -33,6 +31,14 @@ p {
 img {
     max-width: 100%;
     height: auto;
+}
+button {
+    border: unset;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    margin: 0;
+    padding:0;
 }
 
 
