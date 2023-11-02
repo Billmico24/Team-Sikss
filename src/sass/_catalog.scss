@@ -583,7 +583,7 @@
         
          .modal-form-textarea{
             margin-bottom: 40px;
-            resize:none;
+            // resize:none;
          }
         .modal-form-label{
             display: flex;
@@ -592,7 +592,7 @@
             gap: 12px;
             align-self: stretch;
             margin-bottom: 50px;
-            resize:none;
+            // resize:none;
     
         }
         .modal-form-label, .modal-form-textarea{
@@ -609,7 +609,7 @@
             gap: 8px;
             border-radius: 8px;
             border: 1px solid rgba(20, 20, 20, 0.50);
-            resize:none;
+            // resize:none;
         }
         
         .visually-hidden{
@@ -623,7 +623,7 @@
             color: var(--white);
             text-align: center;
             display: flex;
-            width: 336px fixed;
+            width: 336px;
             height: 50px;
             padding: 18px 222px;
             justify-content: center;
@@ -632,11 +632,10 @@
             background-color: var(--dark-green);
             margin-bottom: 12px;
             cursor: pointer;
-          
         }
         .modal-sign-up-form{
             margin: 0;
-            resize:none;
+            // resize:none;
     
         }
         .modal-form-button:hover{
@@ -645,7 +644,7 @@
         }
         .button-description{
             width: 336px;
-            height: 28px;
+            height: 42px;
             color: rgba(20, 20, 20, 0.40);
             font-size: 12px;
             font-style: normal;
