@@ -6,7 +6,7 @@ labe{
 }
 
 .footer-section{
-  max-width: 1176;
+  max-width: 1440px;
   margin: 0 auto;
   display:block;
   background: var(--dark-green);
@@ -57,7 +57,7 @@ labe{
 .footer-item{
   display: flex;
   flex-direction: row;
-  gap: 280px;
+  gap: 460px;
 }
 .page-link{
   text-align:justify;
@@ -95,8 +95,8 @@ labe{
   display: flex;
   align-items:center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   background-color: var(--iris);
   color: var(--white);
 }
@@ -107,8 +107,8 @@ labe{
   display: flex;
   align-items:center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   background-color: var(--iris);
   color: var(--white);
 }
@@ -118,8 +118,8 @@ labe{
   display: flex;
   align-items:center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   background-color: var(--iris);
   color: var(--white);
 }
@@ -134,7 +134,7 @@ labe{
   padding-top: 174px;
 }
  .privacy{
-  margin-left: 350px;
+  margin-left: 750px;
  }
  .terms{
   margin-left: 18px;
@@ -312,11 +312,12 @@ labe{
 
 @media screen and (max-width: 767px) {
   .footer-section{
-    max-width: 375px;
-    // margin: 0 auto;
-    // display:block;
-    background: var(--dark-green);
+    width: 375px;
     height: 434px;
+    margin: 0 auto;
+    display:block;
+    background: var(--dark-green);
+    
   }
   
   .logo{
@@ -346,7 +347,7 @@ labe{
   .contact-list{
     list-style: none;
     display: flex;  
-    font-size: 18px;
+    font-size: 14px;
     color: var(--white);
     flex-direction: column;
     padding-bottom: 20px;
@@ -363,12 +364,12 @@ labe{
   .footer-item{
     display: flex;
     flex-direction: row;
-    gap: 155px;
+    gap: 130px;
   }
   .page-link{
     text-align:justify;
     color: var(--white);
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 133.333% */
@@ -378,6 +379,7 @@ labe{
   }
   .about-us, .catalog, .sale{
     color: var(--white);
+
   }
   .about-us:hover{
     color: var(--ocean);
@@ -389,7 +391,7 @@ labe{
     color: var(--ocean);
   }
   .page-link-item{
-    margin-bottom: 18px;
+    margin-bottom: 4px;
     // margin-left: 0px;
   }
   .footer-list-links-item{
@@ -402,8 +404,8 @@ labe{
     display: flex;
     align-items:center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     background-color: var(--iris);
     border-radius: 3px;
     color: var(--white);
@@ -415,8 +417,8 @@ labe{
     display: flex;
     align-items:center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     background-color: var(--iris);
     color: var(--white);
   }
@@ -426,26 +428,31 @@ labe{
     display: flex;
     align-items:center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     background-color: var(--iris);
     color: var(--white);
   }
   .social-media{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
+    display: inline-flex;
+    align-items: flex-start;
+   list-style-position:unset;
+
+    // flex-direction: ;
+    // gap: 16px;
+    margin-left:20px;
+    margin-top: 180px;
   }
   .footer-description{
     display: flex;
-    flex-direction: row;
-    padding-top: 152px;
+    flex-direction: column;
+    padding-top: 80px;
   }
   .copyright{
     font-size: 14px;
   }
   .privacy{
-    margin-left: 180px;
+    margin: 0px;
     font-size: 14px;
    }
   .terms{
