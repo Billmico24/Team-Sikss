@@ -433,6 +433,14 @@ labe{
     background-color: var(--iris);
     color: var(--white);
   }
+  // Note: ito po yung trial ko para ma choose ang 3rd list item ng social media
+  // .footer-list-links-item:nth-child(3){
+  //   list-style-position:calc(335px + 2*20px);
+  //   list-style:unset;
+  //   display: inline-flex;
+  //   flex-direction: calc(335px + 2*20px);
+
+  // }
   .social-media{
     display: inline-flex;
     align-items: flex-start;
