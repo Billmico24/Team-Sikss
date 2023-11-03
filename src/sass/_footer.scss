@@ -77,6 +77,15 @@ labe{
 .about-us, .catalog, .sale{
   color: var(--white);
 }
+.about-us:hover{
+  color: var(--navy-blue);
+}
+.catalog:hover{
+  color: var(--navy-blue);
+}
+.sale:hover{
+  color: var(--navy-blue);
+}
 .page-link-item{
   margin-bottom: 18px;
 }
@@ -95,9 +104,7 @@ labe{
   border-radius:22px;
   color: var(--white);
 }
-.footer-list-facebook:hover{
-  color: var(--navy-blue);
-}
+
 .footer-list-instagram{
   display: flex;
   align-items:center;
