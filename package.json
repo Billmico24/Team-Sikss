@@ -1,21 +1,21 @@
 {
-  "name": "team_project",
+  "name": "Team-Sikss",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ruki21.github.io/team_project",
+  "homepage": "https://billmico24.github.io/Team-Sikss/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team_project/"
+    "build": "parcel build src/*.html --public-url /Team-Sikss/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruki21/team_project.git"
+    "url": "git+https://github.com/Billmico24/Team-Sikss.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Bill Mico Malazarte <Billmico24@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ruki21/team_project/issues"
+    "url": "https://github.com/Billmico24/Team-Sikss/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
